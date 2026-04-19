@@ -12,17 +12,21 @@ Maintain a simple table with:
 - Owner
 - Mitigation plan
 - Status
+- Trigger / early warning signal
+- Target review date
 
 ## Risk Lifecycle
 - Identify: during planning and ongoing execution
 - Assess: estimate impact and likelihood
 - Mitigate: reduced via actions, contingency plans
 - Monitor: review at weekly syncs and update status
+- Escalate: if threshold is crossed, notify accountable owner and sponsor path
 
 ## Stakeholder Communication
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Assign a communication owner for each stakeholder group and update cadence
 
 ## Communication Templates
 Weekly Status Template:
@@ -40,3 +44,9 @@ Incident Communication
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
 - For security incidents, follow the security incident runbook and notify Security on-call
+
+## Communication Accountability Matrix
+- **Accountable:** PM for delivery/risk updates, PdM for scope/value updates.
+- **Responsible:** PM or delegate publishes recurring status updates.
+- **Consulted:** Engineering, QA, BA/UX, and stakeholder champions as relevant.
+- **Informed:** Sponsor and all impacted stakeholder groups.

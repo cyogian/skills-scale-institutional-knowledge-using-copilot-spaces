@@ -16,9 +16,20 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Business Analyst (BA): clarifies requirements, constraints, and traceability.
+- UX Designer: defines user experience flows and usability expectations.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- QA/Testing: define quality strategy and validate acceptance criteria.
+- Scrum Master / Delivery Lead: facilitates ceremonies and removes delivery blockers.
+- Stakeholder Champions: represent business domains and readiness needs.
+
+## Accountability Model
+- Use **A/R/C/I** in every phase artifact:
+  - **A (Accountable):** single decision owner.
+  - **R (Responsible):** contributors doing the work.
+  - **C (Consulted):** experts consulted before decisions.
+  - **I (Informed):** audiences notified after decisions.
+- Track key ownership in [`octoacme-role-accountability-template.md`](./octoacme-role-accountability-template.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -40,6 +51,12 @@ Applies to all cross-functional projects that deliver product features, services
 - Twice-weekly standups for delivery team (or as agreed)
 - Monthly stakeholder updates
 - Ad-hoc escalations as needed
+
+## Decision and Handoff Gates
+- Initiation -> Planning: approved one-pager with named accountable owner.
+- Planning -> Execution: prioritized backlog with acceptance criteria and dependency owners.
+- Execution -> Release: quality and rollout readiness confirmed by PM + QA.
+- Release -> Retrospective: outcome metrics, incidents, and follow-up actions captured.
 
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.

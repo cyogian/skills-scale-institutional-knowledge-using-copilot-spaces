@@ -22,8 +22,12 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Acceptance criteria:
 - Priority:
 - Estimate:
-- Owner:
+- Accountable owner:
+- Responsible role(s):
+- Consulted role(s):
+- Informed stakeholder(s):
 - Related docs/links:
+- Dependencies:
 
 ## Sprint / Iteration Planning
 - Timebox planning to agreed sprint length
@@ -41,3 +45,5 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] RACI ownership mapped for milestones and decisions
+- [ ] Handoff criteria to execution documented (scope, quality, risks, dependencies)

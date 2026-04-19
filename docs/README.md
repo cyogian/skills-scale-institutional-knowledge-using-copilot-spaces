@@ -22,3 +22,4 @@ Quality assurance and risk management are built into each phase, not deferred to
 - [Release & Deployment Guide](./octoacme-release-and-deployment.md)
 - [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
 - [Roles and Personas](./octoacme-roles-and-personas.md)
+- [Role Accountability Template](./octoacme-role-accountability-template.md)

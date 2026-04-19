@@ -8,6 +8,13 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Weekly delivery sync — show progress, updates, and flagged risks
 - Demo/Review at the end of each sprint or milestone
 
+## Execution Ownership
+- **PM/Scrum Master:** accountable for execution cadence and blocker escalation.
+- **Developers:** responsible for implementation quality and PR readiness.
+- **QA/Test Lead:** accountable for validation status and defect visibility.
+- **PdM/BA/UX:** consulted for scope, requirement, and usability clarifications.
+- **Stakeholder Champions:** informed of milestone status and release impact.
+
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
 - Pull Request workflow:
@@ -32,9 +39,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Level 1: Team-level triage in daily standup
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+- Document owner, due date, and next checkpoint for every escalated blocker.
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Handoffs tracked from In Review -> QA -> Done with named owners
