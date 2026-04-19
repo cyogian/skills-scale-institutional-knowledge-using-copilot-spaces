@@ -19,6 +19,12 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
 
+## Ownership at Initiation
+- **Accountable:** Product Lead or Project Sponsor for go/no-go.
+- **Responsible:** PM + PdM to prepare one-pager and stakeholder alignment.
+- **Consulted:** BA, UX, Engineering lead, QA lead for feasibility and risk input.
+- **Informed:** Stakeholder Champions and dependent teams.
+
 ## Project One-pager Template
 - Project name:
 - Problem statement:
@@ -35,9 +41,12 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Named owner for each key risk and dependency
+- [ ] Decision log entry created for go/no-go outcome
 
 ## Decision Gate
 Move to planning when:
 - Success metrics are clear
 - Stakeholders agree on priority
 - Team availability is confirmed
+- Accountable owner and handoff participants are explicitly named
